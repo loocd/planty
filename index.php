@@ -8,7 +8,7 @@
             $mailFrom = $_POST['email'];
 
         
-            $mailTo = "noreply@loocd.ch";
+            $mailTo = "contact@loocd.ch";
 			$betreff = $name ." subscribed to planty updates";
 			$txt = "<html>";
 			$txt .= "<body>";
@@ -29,7 +29,7 @@
 			$txtSender .= "<p>Planty is just made up... So unfortunately, you won't be receiving any updates. Good luck with your plants, though ¯\_(ツ)_/¯";
 			$txtSender .= "</body></html>";
 			
-			$headersSender = "From: noreply@loocd.ch\r\n";
+			$headersSender = "From: contact@loocd.ch\r\n";
 			$headersSender .= "MIME-Version: 1.0\r\n";
 			$headersSender .= "Content-Type: text/html; charset=utf-8\r\n";
 			
