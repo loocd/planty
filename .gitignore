@@ -1,5 +1,8 @@
 node_modules/
 design/
-robots.txt
 .history/
 assets/images/ignore/
+
+robots.txt
+additional.css.map
+additional.scss
